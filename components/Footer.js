@@ -6,10 +6,10 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <section id="footer">
-      <div className="section-container bg-slate-400">
+      <div className="section-container bg-black">
         <div className="flex flex-col  items-center space-y-3 justify-center w-full pt-3 pb-3 md:flex-row md:space-y-0 md:pb-1">
           <div>
-            <h3 className="text-slate-800 text-xl font-semibold border-slate-800 border-b-2 md:border-b-0 md:mr-4 ">
+            <h3 className="text-white text-xl font-semibold border-white border-b-2 md:border-b-0 md:mr-4 ">
               <Link href="/">Hola Metaverso</Link>
             </h3>
           </div>
@@ -19,7 +19,7 @@ const Footer = () => {
               <FontAwesomeIcon
                 icon={faTwitter}
                 width="25px"
-                className="text-slate-800"
+                className="text-white"
               />
             </a>
             {/* <a href="https://www.instagram.com/h67c10/" target="_blank" rel="noreferrer" >
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col  items-center space-y-3 justify-center w-full pb-1 md:flex-row md:space-y-0">
-            <a href="/Terms" target="_blank" rel="noreferrer"><p className="text-slate-800 font-semibold text-xs md:border-b-0 md:mr-4 md:text-sm ">Terms and Conditions </p></a>
+            <a href="/Terms" target="_blank" rel="noreferrer"><p className="text-white font-semibold text-xs md:border-b-0 md:mr-4 md:text-sm ">Terms and Conditions </p></a>
           </div>
       </div>
     </section>

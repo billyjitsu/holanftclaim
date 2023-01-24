@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        donut: "#e709b1",
+        donut: "#d4b061",
     },
   },
 },
