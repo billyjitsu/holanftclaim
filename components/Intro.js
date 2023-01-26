@@ -16,7 +16,7 @@ const Intro = () => {
   const [loading, setLoading] = useState(false);
   const [nftMinted, setNFTMinted] = useState(false);
 
-  const NFTCONTRACT = '0x5e6Ab76998e2F1039714a82319dc63AC75D808aB'
+  const NFTCONTRACT = '0x038190293f20c15B22174c064e95B9Aeab7d83C8'
 
   const contractConfig = {
     address: NFTCONTRACT, //process.env.NEXT_PUBLIC_CONTRACT_ADDRESS,
